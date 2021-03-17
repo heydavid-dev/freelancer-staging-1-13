@@ -1,0 +1,75 @@
+# Site settings
+title: Freelancer
+email: your-email@domain.com
+url: https://chickensmitten.github.io
+baseurl: /freelancer
+description: "Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description."
+keywords: "your keywords, separated by commas"
+skills: "Web Developer - Graphic Artist - User Experience Designer"
+meta-author: LastName FirstName
+
+# Google webmaster tools
+google-verify: ""
+
+# https://ssl.bing.com/webmaster/configure/verify/ownership Option 2 content= goes here
+bing-verify: ""
+
+# Contact form:
+# - static : pass through formspree.io to validate email sending
+# - disqus : replace contact form by disqus thread
+# - comment the line below if you want to stick with the default PHP contact form
+# contact: static
+
+# If you use disqus you need disqus shortname
+# https://help.disqus.com/customer/portal/articles/466208
+disqus-shortname: myshortname
+
+# Color settings (hex-codes without the leading hash-tag)
+color:
+  primary: 18bc9c #80B3FF
+  secondary: 2c3e50 #FD6E8A
+  secondary-dark: 233140 #A2122F
+
+# About settings
+about:
+  title: About
+  first-description: Freelancer is a free bootstrap theme created by Start Bootstrap. The download includes the complete source files including HTML, CSS, and JavaScript as well as optional LESS stylesheets for easy customization.
+  second-description: Whether you're a student looking to showcase your work, a professional looking to attract clients, or a graphic artist looking to share your projects, this template is the perfect starting point! 
+  button-url: https://github.com/jeromelachaud/freelancer-theme
+  button-text: Download Theme
+  
+# Contact settings
+contact:
+  title: Contact Me
+  
+# Portfolio settings
+portfolio:
+  title: Portfolio
+
+# Footer settings
+footer:
+  location: Location
+  credits: Credits
+
+# Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
+social-list:
+  - title: envelope
+    url: mailto:someone@example.com
+  - title: phone
+    url: tel:123-456-7890
+  - title: whatsapp
+    url: https://wa.me/1234567890
+  - title: map-marker
+    url: https://goo.gl/maps/cb49MvbmdRehc7Zf9
+  - title: twitter
+    url: https://twitter.com
+
+# Postal address (add as many lines as necessary)
+address: 3481 Melrose Place, Beverly Hills, CA 90210
+
+# Credits content
+credits: 'Freelancer is a free to use, open source theme, created by Start Bootstrap.'
+
+# Build settings
+markdown: kramdown
+permalink: pretty
